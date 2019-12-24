@@ -4,6 +4,7 @@ const Box=()=>import('../../src/components/plblic/box.vue')
 Vue.use(VueRouter)
 
 const routes = [
+    
   // {
   //   path: '/',
   //   name: 'home',
