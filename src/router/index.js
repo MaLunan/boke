@@ -4,12 +4,11 @@ const Box=()=>import('../../src/components/plblic/box.vue')
 Vue.use(VueRouter)
 
 const routes = [
-    
-  // {
-  //   path: '/',
-  //   name: 'home',
-  //   component: Home
-  // },
+
+  {
+    path: '/',
+    redirect:'/box'
+  },
   // {
   //   path: '/about',
   //   name: 'about',
@@ -17,7 +16,7 @@ const routes = [
   // }
   {
     // props:true,
-    path:'/',
+    path:'/box',
     component:Box,
     name:'box',
     meta:{
@@ -84,7 +83,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+//   mode: 'history',
   base: process.env.BASE_URL,
   routes
 })
