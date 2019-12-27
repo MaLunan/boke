@@ -13,4 +13,4 @@ mongodb 后台数据库
 ### 正在一步一步完善中......
 
 ### 页面效果查看
-https://www.zmln1021.cn
+http://www.zmln1021.cn
