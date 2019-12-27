@@ -1,6 +1,6 @@
 module.exports = {
     // 基本路径 baseURL已经过时
-    publicPath: './',  
+    publicPath: '/',  
     // 输出文件目录
     outputDir: 'dist',
     assetsDir: 'static',//静态资源目录名称
