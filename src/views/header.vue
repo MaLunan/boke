@@ -14,7 +14,7 @@
               <router-link to="/" @click.native="returnTop"><i class="iconfont icon-programmingwindo"></i>技术分享</router-link>
             </li>
             <li>
-              <router-link to="/" @click.native="returnTop"><i class="iconfont icon-liuyan2"></i>留言板</router-link>
+              <router-link to="/leave" @click.native="returnTop"><i class="iconfont icon-liuyan2"></i>留言板</router-link>
             </li>
             <li>
               <router-link to="/" @click.native="returnTop"><i class="iconfont icon-daocha"></i>赞助作者</router-link>

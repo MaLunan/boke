@@ -14,14 +14,15 @@ import "./static/images/swiper1.jpg"
 import "./static/images/zhu.gif"
 import Antd from 'ant-design-vue'
 import 'ant-design-vue/dist/antd.css'
-// import wangeditor from 'wangeditor'
-// import '../node_modules/wangeditor/release/wangEditor.min.js'
+import Canvas from 'canvas'
+import './lizi'
 Vue.prototype.$axios=axios
     
 Vue.use(Router)
 Vue.use(Mintui)
 Vue.use(Vuex)
 Vue.use(Antd)
+Vue.use(Canvas)
 // Vue.use(Wangeditor)
 const app = new Vue({
     router,

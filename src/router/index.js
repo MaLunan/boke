@@ -24,6 +24,11 @@ const routes = [
     }
 },
 {
+    path: '/leave',
+    name: 'leave',
+    component: () => import('../../src/components/plblic/leave.vue')
+},
+{
     // props:true,
     path:'/background',
     component:require('../../src/components/background/background.vue').default,
