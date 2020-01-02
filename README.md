@@ -1,19 +1,16 @@
-# bokecli
+# vue脚手架搭建响应式个人博客系统
 
-## Project setup
-```
-npm install
-```
+## 2个大页面  前端展示页  后端管理页
 
-### Compiles and hot-reloads for development
+### 技术栈  
 ```
-npm run serve
+基于vue框架 
+mint-ui 移动端ui
+ant-design pc端ui
+wangeditor 富文本插件
+mongodb 后台数据库
 ```
+### 正在一步一步完善中......
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 页面效果查看
+http://www.zmln1021.cn
